@@ -31,7 +31,7 @@ def solution(map: list[list[int]], t1: tuple[int, int], t2: tuple[int, int]):
 
     return best_coord
 
-def build_access_table(map: list[list[int]], start: tuple[int, int], visited: set[tuple[int, int], int]=None, do_dfs: bool=True) -> set[tuple[int, int], int]:
+def build_access_table(map: list[list[int]], start: tuple[int, int], visited: set[tuple[int, int], int]=None) -> set[tuple[int, int], int]:
     if visited is None :
         visited = set()
 
